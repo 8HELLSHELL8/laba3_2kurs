@@ -1,0 +1,1 @@
+genhtml coverage_cleaned.info --output-directory out

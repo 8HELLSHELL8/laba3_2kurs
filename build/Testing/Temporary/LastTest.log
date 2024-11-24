@@ -1,0 +1,147 @@
+Start testing: Nov 24 18:17 +07
+----------------------------------------------------------
+1/1 Testing: run_all_tests
+1/1 Test: run_all_tests
+Command: "/home/anton/3laba_2kurs/build/test_all"
+Directory: /home/anton/3laba_2kurs/build
+"run_all_tests" start time: Nov 24 18:17 +07
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 49 tests from 7 test suites.
+[----------] Global test environment set-up.
+[----------] 10 tests from DynamicArray_test
+[ RUN      ] DynamicArray_test.defaultConstructor
+[       OK ] DynamicArray_test.defaultConstructor (0 ms)
+[ RUN      ] DynamicArray_test.initializerConstructor
+[       OK ] DynamicArray_test.initializerConstructor (0 ms)
+[ RUN      ] DynamicArray_test.copyConstructor
+[       OK ] DynamicArray_test.copyConstructor (0 ms)
+[ RUN      ] DynamicArray_test.assigmentOperator
+[       OK ] DynamicArray_test.assigmentOperator (0 ms)
+[ RUN      ] DynamicArray_test.MPUSH
+[       OK ] DynamicArray_test.MPUSH (0 ms)
+[ RUN      ] DynamicArray_test.MPUSHAtIndex
+[       OK ] DynamicArray_test.MPUSHAtIndex (0 ms)
+[ RUN      ] DynamicArray_test.Iterators
+[       OK ] DynamicArray_test.Iterators (0 ms)
+[ RUN      ] DynamicArray_test.MDEL
+[       OK ] DynamicArray_test.MDEL (0 ms)
+[ RUN      ] DynamicArray_test.MSET
+[       OK ] DynamicArray_test.MSET (0 ms)
+[ RUN      ] DynamicArray_test.Resize
+[       OK ] DynamicArray_test.Resize (0 ms)
+[----------] 10 tests from DynamicArray_test (0 ms total)
+
+[----------] 10 tests from ForwardList_test
+[ RUN      ] ForwardList_test.defaultConstructor
+[       OK ] ForwardList_test.defaultConstructor (0 ms)
+[ RUN      ] ForwardList_test.isEmpty
+[       OK ] ForwardList_test.isEmpty (0 ms)
+[ RUN      ] ForwardList_test.size
+[       OK ] ForwardList_test.size (0 ms)
+[ RUN      ] ForwardList_test.get
+[       OK ] ForwardList_test.get (0 ms)
+[ RUN      ] ForwardList_test.addTail
+[       OK ] ForwardList_test.addTail (0 ms)
+[ RUN      ] ForwardList_test.addHead
+[       OK ] ForwardList_test.addHead (0 ms)
+[ RUN      ] ForwardList_test.delHead
+[       OK ] ForwardList_test.delHead (0 ms)
+[ RUN      ] ForwardList_test.delTail
+[       OK ] ForwardList_test.delTail (0 ms)
+[ RUN      ] ForwardList_test.search
+Value "2" found in the list.
+Value "999" not found in the list.
+[       OK ] ForwardList_test.search (0 ms)
+[ RUN      ] ForwardList_test.remove
+Value "2" found in the list.
+Value "2" not found in the list.
+[       OK ] ForwardList_test.remove (0 ms)
+[----------] 10 tests from ForwardList_test (0 ms total)
+
+[----------] 9 tests from LinkedList_test
+[ RUN      ] LinkedList_test.constructor
+[       OK ] LinkedList_test.constructor (0 ms)
+[ RUN      ] LinkedList_test.isEmpty
+[       OK ] LinkedList_test.isEmpty (0 ms)
+[ RUN      ] LinkedList_test.search
+[       OK ] LinkedList_test.search (0 ms)
+[ RUN      ] LinkedList_test.get
+[       OK ] LinkedList_test.get (0 ms)
+[ RUN      ] LinkedList_test.addHead
+[       OK ] LinkedList_test.addHead (0 ms)
+[ RUN      ] LinkedList_test.addTail
+[       OK ] LinkedList_test.addTail (0 ms)
+[ RUN      ] LinkedList_test.delHead
+[       OK ] LinkedList_test.delHead (0 ms)
+[ RUN      ] LinkedList_test.delTail
+[       OK ] LinkedList_test.delTail (0 ms)
+[ RUN      ] LinkedList_test.remove
+[       OK ] LinkedList_test.remove (0 ms)
+[----------] 9 tests from LinkedList_test (0 ms total)
+
+[----------] 5 tests from Queue_test
+[ RUN      ] Queue_test.defaultConstructor
+[       OK ] Queue_test.defaultConstructor (0 ms)
+[ RUN      ] Queue_test.isEmpty
+[       OK ] Queue_test.isEmpty (0 ms)
+[ RUN      ] Queue_test.push
+[       OK ] Queue_test.push (0 ms)
+[ RUN      ] Queue_test.pop
+[       OK ] Queue_test.pop (0 ms)
+[ RUN      ] Queue_test.popError
+[       OK ] Queue_test.popError (0 ms)
+[----------] 5 tests from Queue_test (0 ms total)
+
+[----------] 6 tests from Stack_test
+[ RUN      ] Stack_test.defaultConstructor
+[       OK ] Stack_test.defaultConstructor (0 ms)
+[ RUN      ] Stack_test.isEmpty
+[       OK ] Stack_test.isEmpty (0 ms)
+[ RUN      ] Stack_test.isEmptyError
+[       OK ] Stack_test.isEmptyError (0 ms)
+[ RUN      ] Stack_test.push
+[       OK ] Stack_test.push (0 ms)
+[ RUN      ] Stack_test.pop
+[       OK ] Stack_test.pop (0 ms)
+[ RUN      ] Stack_test.popError
+[       OK ] Stack_test.popError (0 ms)
+[----------] 6 tests from Stack_test (0 ms total)
+
+[----------] 5 tests from FBT_test
+[ RUN      ] FBT_test.Constructor
+[       OK ] FBT_test.Constructor (0 ms)
+[ RUN      ] FBT_test.AddNode
+[       OK ] FBT_test.AddNode (0 ms)
+[ RUN      ] FBT_test.isFull
+[       OK ] FBT_test.isFull (0 ms)
+[ RUN      ] FBT_test.notFull
+[       OK ] FBT_test.notFull (0 ms)
+[ RUN      ] FBT_test.findNode
+[       OK ] FBT_test.findNode (0 ms)
+[----------] 5 tests from FBT_test (0 ms total)
+
+[----------] 4 tests from Hashtable_test
+[ RUN      ] Hashtable_test.addAndGet
+[       OK ] Hashtable_test.addAndGet (0 ms)
+[ RUN      ] Hashtable_test.updateValue
+[       OK ] Hashtable_test.updateValue (0 ms)
+[ RUN      ] Hashtable_test.remove
+[       OK ] Hashtable_test.remove (0 ms)
+[ RUN      ] Hashtable_test.collision
+[       OK ] Hashtable_test.collision (0 ms)
+[----------] 4 tests from Hashtable_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 49 tests from 7 test suites ran. (0 ms total)
+[  PASSED  ] 49 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"run_all_tests" end time: Nov 24 18:17 +07
+"run_all_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 24 18:17 +07

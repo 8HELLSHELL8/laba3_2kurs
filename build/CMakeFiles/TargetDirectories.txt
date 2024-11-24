@@ -1,0 +1,6 @@
+/home/anton/3laba_2kurs/build/CMakeFiles/laba1.dir
+/home/anton/3laba_2kurs/build/CMakeFiles/test_all.dir
+/home/anton/3laba_2kurs/build/CMakeFiles/coverage.dir
+/home/anton/3laba_2kurs/build/CMakeFiles/test.dir
+/home/anton/3laba_2kurs/build/CMakeFiles/edit_cache.dir
+/home/anton/3laba_2kurs/build/CMakeFiles/rebuild_cache.dir
